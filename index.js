@@ -22,7 +22,7 @@ app.use("/auth/signup",signupRouter);
 app.use(routeNotFound);
 
 
-app.listen(process.env.PORT || PORT,()=>{
+app.listen(PORT,()=>{
     console.log("server started");
 })
 
