@@ -16,13 +16,13 @@ app.get("/",(req,res)=>{
     res.send("hello geeks");
 })
 
-app.use("/quiz",quizRouter)
+app.use("/quiz",quizRouter);
 app.use("/auth/login",loginRouter);
 app.use("/auth/signup",signupRouter);
 app.use(routeNotFound);
 
 
-app.listen(process.env.PORT||7000,()=>{
-    console.log("server started");
+app.listen(process.env.PORT || PORT,()=>{
+    console.log("server started....");
 })
 
