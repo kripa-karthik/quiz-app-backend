@@ -6,6 +6,7 @@ const quizzes={
             id:uuid(),
             category:"BTS",
             title:"Members",
+            image:"https://wallpaper.dog/large/10821108.jpg",
             description:"About BTS members",
             //questions and ans
             quiz:[
@@ -52,6 +53,7 @@ const quizzes={
             id:uuid(),
             category:"IPL",
             title:"IPL",
+            image:"https://tse1.mm.bing.net/th?id=OIP.b9uk4Q7V61_LeqFOuN431gHaEH&pid=Api&P=0&h=180",
             description:"Indian Premeir League",
             quiz:[
                 {
