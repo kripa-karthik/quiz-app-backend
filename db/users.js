@@ -4,13 +4,13 @@ const userData={
     "users":[
         {
             id:uuid(),
-            userName:"Kris",
+            username:"Kris",
             password:"k1234",
             email:"k123@gmail.com"
         },
         {
             id:uuid(),
-            userName:"Krishna",
+            username:"Krishna",
             password:"ka1234",
             email:"ka1234"
         }
