@@ -5,7 +5,7 @@ const quizzes={
         {
             id:uuid(),
             category:"BTS",
-            title:"Members",
+            title:"BTS Members",
             image:"https://wallpaper.dog/large/10821108.jpg",
             description:"About BTS members",
             //questions and ans
@@ -44,6 +44,54 @@ const quizzes={
 
                     ]
 
+                },
+                {
+                    id:uuid(),
+                    question:"Filter is by which memeber of BTS?",
+                    options:[
+                        {id:uuid(),option:"Min Yoongi",isCorrect:false},
+                        {id:uuid(),option:"Kim Namjoon",isCorrect:false},
+                        {id:uuid(),option:"Jung Hoseok",isCorrect:false},
+                        {id:uuid(),option:"Park Jimin",isCorrect:true}
+
+                    ]
+
+                },
+                {
+                    id:uuid(),
+                    question:`which member says "IM YOUR HOPE YOU ARE MY HOPE IM J-HOPE"?`,
+                    options:[
+                        {id:uuid(),option:"Kim Taehyung",isCorrect:false},
+                        {id:uuid(),option:"Kim Namjoon",isCorrect:false},
+                        {id:uuid(),option:"Jeon Jungkook",isCorrect:false},
+                        {id:uuid(),option:"Jung Hoseok",isCorrect:true}
+
+                    ]
+
+                },
+                {
+                    id:uuid(),
+                    question:"Which member got the most wedding proposals from ARMY?",
+                    options:[
+                        {id:uuid(),option:"Kim Taehyung",isCorrect:false},
+                        {id:uuid(),option:"Min Yoongi",isCorrect:true},
+                        {id:uuid(),option:"Jeon Jungkook",isCorrect:false},
+                        {id:uuid(),option:"Park Jimin",isCorrect:false}
+
+                    ]
+
+                },
+                {
+                    id:uuid(),
+                    question:`"I'M GOOD BOY" who always says this?`,
+                    options:[
+                        {id:uuid(),option:"Kim Taehyung",isCorrect:true},
+                        {id:uuid(),option:"Kim Namjoon",isCorrect:false},
+                        {id:uuid(),option:"Jeon Jungkook",isCorrect:false},
+                        {id:uuid(),option:"Park Jimin",isCorrect:false}
+
+                    ]
+
                 }
             ]
         
@@ -63,7 +111,7 @@ const quizzes={
                         {id:uuid(),option:"CSK",isCorrect:true},
                         {id:uuid(),option:"MI",isCorrect:false},
                         {id:uuid(),option:"DC",isCorrect:false},
-                        {id:uuid(),option:"SRH",isCorrect:true}
+                        {id:uuid(),option:"SRH",isCorrect:false}
 
                     ]
                 },
